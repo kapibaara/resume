@@ -8451,3 +8451,13 @@ span.CodeMirror-selectedtext {
 .contact_container > * {
   margin-bottom: 10px;
 }
+
+.project-container {
+  padding: 10px 0;
+  margin-bottom: 15px;
+  border-bottom: 1px solid gray;
+}
+
+.project-container > div {
+  margin-bottom: 15px;
+}

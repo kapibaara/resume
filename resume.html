@@ -20,7 +20,7 @@
             href="styles.css"
             rel="stylesheet"
     />
-    <title>Профиль — Арена</title>
+    <title>Болдовская.Резюме</title>
 </head>
 <body class="dark vsc-initialized">
 <div id="app">
@@ -28,7 +28,7 @@
         <div class="Profile__content">
             <div class="Profile__candidateInfoBlock">
                 <div class="Profile__candidateInfoBlockInner">
-                    <div class="ProfileEdit__title" s>
+                    <div class="ProfileEdit__title">
                         <h2>Болдовская Анастасия</h2>
                         <h3 class="contact_container">
                       <span>
@@ -42,11 +42,33 @@
                       </span>
                         </h3>
                     </div>
+                    <div class="job">
+                        <div class="Profile__experienceName">
+                            Tinkoff, разработчик
+                        </div>
+                        <div class="Profile__experienceDate">
+                            <div class="Profile__experiencePeriod">1 год</div>
+                        </div>
+                    </div>
+
                     <div class="Profile__experienceList">
                         <div class="Profile__experience">
                             <div>
-                                <div class="Profile__experienceName">
-                                    Tinkoff, разработчик
+                                <div class="Profile__experience no-flex">
+                                    <div class="Profile__experienceName">
+                                        Технологии
+                                    </div>
+                                    <div class="tags-container">
+                                        <span class="tag">React</span>
+                                        <span class="tag">Typescript</span>
+                                        <span class="tag">Express</span>
+                                        <span class="tag">CSS Modules</span>
+                                        <span class="tag">Node.js</span>
+                                        <span class="tag">Redux</span>
+                                        <span class="tag">Ramda</span>
+                                        <span class="tag">Jest</span>
+                                        <span class="tag">Git</span>
+                                    </div>
                                 </div>
                                 <div class="Profile__experienceDescription">
                                     <div class="project-container">
@@ -56,18 +78,18 @@
                                         <div class="project-features">
                                             Особенности проекта:
                                             <div class="project-list">
-                                                1) Большое количество форм и таблиц<br>
-                                                2) Прямое взаимодейстиве с бекендерами<br>
-                                                3) Частое взаимодействие с дизайнером<br>
+                                                <span>1) Большое количество форм и таблиц</span><br>
+                                                <span>2) Прямое взаимодейстиве с бекендерами</span><br>
+                                                <span>3) Частое взаимодействие с дизайнером</span><br>
                                             </div>
                                         </div>
                                         <div class="project-tasks">
                                             Мои задачи:
                                             <div class="project-list">
-                                                1) Написание составных селекторов данных из апи<br>
-                                                2) Кроссбраузрная и адаптивная верстка форм и таблиц<br>
-                                                3) Правки по дизайн-ревью<br>
-                                                4) Частичный перевод на TS<br>
+                                                <span>1) Написание составных селекторов данных из апи</span><br>
+                                                <span>2) Кроссбраузрная и адаптивная верстка форм и таблиц</span><br>
+                                                <span>3) Правки по дизайн-ревью</span><br>
+                                                <span>4) Частичный перевод на TS</span><br>
                                             </div>
                                         </div>
                                     </div>
@@ -79,29 +101,29 @@
                                             Стартовая страница авторизованной зоны, в которой уложены все частотные сценарии клиента, механики продвижения функций и продуктов, лайфстайл и персонализация
                                         </p>
                                         <div class="project-features">
-                                            Особенности:
+                                            Особенности проекта:
                                             <div class="project-list">
-                                                1) Плотная работа с другими командами на плафторме<br>
-                                                2) Написанный и поддерживаемый внутри команды микросервис сбора данных (typescript, express)<br>
-                                                3) Возможность убирать и показывать блоки безрелизно<br>
+                                                <span>1) Плотная работа с другими командами на плафторме</span><br>
+                                                <span>2) Написанный и поддерживаемый внутри команды микросервис сбора данных (typescript, express)</span><br>
+                                                <span>3) Возможность убирать и показывать блоки безрелизно</span><br>
                                             </div>
                                         </div>
                                         <div class="project-tasks">
-                                            Выполненные задачи:
+                                            Мои задачи:
                                             <div class="project-list">
-                                                1) Интеграция компонентов других команд<br>
+                                                <span>1) Интеграция компонентов других команд</span><br>
                                                 <!-- интеграция происходила сначала через подклчюение компонентов в монорепе - огребли, перешли на npm -->
-                                                2) Написание и верстка собственных блоков<br>
-                                                3) Работа с микросервисом на Node.js - фетчинг, кэширование и стриминг данных<br>
+                                                <span>2) Написание и верстка собственных блоков</span><br>
+                                                <span>3) Работа с микросервисом на Node.js - фетчинг, кэширование и стриминг данных</span><br>
                                                 <!--
                                                   Обработка ошибок от апи, логгирование, trackingId
                                                   Кэширование - по sessionid, sticky session
                                                   Стриминг данных - long pooling, websockets, SSE:
                                                   Делаем запрос при серверном рендеринге, данные начинают подгружаться на МС, затем попадают в браузер клиента
                                                  -->
-                                                4) Работа с снепшотными тестами<br>
-                                                5) Работа с данными - фильтрация, агрегация<br>
-                                                6) Рефакторинг архитектуры (распиливание на классы)<br>
+                                                <span>4) Работа с снепшотными тестами</span><br>
+                                                <span>5) Работа с данными - фильтрация, агрегация</span><br>
+                                                <span>6) Рефакторинг архитектуры (распиливание на классы)</span><br>
                                                 <!-- Для чего и что именно -->
                                             </div>
                                         </div>
@@ -114,23 +136,23 @@
 
                                         </p>
                                         <div class="project-features">
-                                            Особенности:
+                                            Особенности проекта:
                                             <div class="project-list">
-                                                1) Внедряется во все приложения - большое количество заказчиков<br>
-                                                2) Все данные формируются динамически через админку - для безрелизных изменений на всей платформе<br>
-                                                3) Легаси проект, частые смены разработчиков<br>
-                                                4) Отсутствие документации, тяжелый дебагинг<br>
+                                                <span>1) Внедряется во все приложения - большое количество заказчиков</span><br>
+                                                <span>2) Все данные формируются динамически через админку - для безрелизных изменений на всей платформе</span><br>
+                                                <span>3) Легаси проект, частые смены разработчиков</span><br>
+                                                <span>4) Отсутствие документации, тяжелый дебагинг</span><br>
                                             </div>
                                         </div>
                                         <div class="project-tasks">
-                                            Выполненные задачи:
+                                            Мои задачи:
                                             <div class="project-list">
-                                                1) Написание и поддержка в актуальном состоянии документации<br>
-                                                2) Помощь другим командам в работе с модулями<br>
-                                                3) Добавление нового функционала<br>
-                                                4) Рефакторинг старого<br>
-                                                5) Общение с заказчиками<br>
-                                                6) Погружение новых разработчиков в работу модулей<br>
+                                                <span>1) Написание и поддержка в актуальном состоянии документации</span><br>
+                                                <span>2) Помощь другим командам в работе с модулями</span><br>
+                                                <span>3) Добавление нового функционала</span><br>
+                                                <span>4) Рефакторинг старого</span><br>
+                                                <span>5) Общение с заказчиками</span><br>
+                                                <span>6) Погружение новых разработчиков в работу модулей</span><br>
                                             </div>
                                         </div>
                                     </div>
@@ -139,15 +161,15 @@
                                            Личный кабинет (компоненты Авторизация, Профиль, Страхование)
                                         </div>
                                         <div class="project-features">
-                                            Особенности:
+                                            Особенности проекта:
                                             <p>Авторизовання зона платформы</p>
                                         </div>
                                         <div class="project-tasks">
-                                            Выполненные задачи:
+                                            Мои задачи:
                                             <div class="project-list">
-                                                1) Добавление страницы для кодового слова<br>
-                                                2) Переезд приложения в гитлаб из монорепы<br>
-                                                3) Отдельная страница авторизации для tinkoffinsurance.ru<br>
+                                                <span>1) Добавление страницы для кодового слова</span><br>
+                                                <span>2) Переезд приложения в гитлаб из монорепы</span><br>
+                                                <span>3) Отдельная страница авторизации для tinkoffinsurance.ru</span><br>
                                             </div>
                                         </div>
                                     </div>
@@ -158,39 +180,21 @@
                                         <div class="project-features">
                                             Особенности:
                                             <div class="project-list">
-                                                1) Монорепозиторий<br>
-                                                2) Изоморфоное приложение (SPA статика + SSR)<br>
+                                                <span>1) Монорепозиторий</span><br>
+                                                <span>2) Изоморфоное приложение (SPA статика + SSR)</span><br>
                                             </div>
                                         </div>
                                         <div class="project-tasks">
-                                            Выполненные задачи:
+                                            Мои задачи:
                                             <div class="project-list">
-                                                1) Проведение релизов, мониторинг<br>
-                                                2) Написание unit тестов<br>
+                                                <span>1) Проведение релизов, мониторинг</span><br>
+                                                <span>2) Написание unit тестов</span><br>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="Profile__experienceDate">
-                                <div class="Profile__experiencePeriod">1 год</div>
-                            </div>
-                        </div>
-                        <div class="Profile__experience no-flex">
-                            <div class="Profile__experienceName">
-                                Технологии
-                            </div>
-                            <div class="tags-container">
-                                <span class="tag">React</span>
-                                <span class="tag">Typescript</span>
-                                <span class="tag">Express</span>
-                                <span class="tag">CSS Modules</span>
-                                <span class="tag">Node.js</span>
-                                <span class="tag">Redux</span>
-                                <span class="tag">Ramda</span>
-                                <span class="tag">Jest</span>
-                                <span class="tag">Git</span>
-                            </div>
+
                         </div>
                         <div class="Profile__experience no-bottom-padding">
                             <div>
